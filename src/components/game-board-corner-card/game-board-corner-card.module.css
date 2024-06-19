@@ -1,0 +1,27 @@
+.cornerCardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    background: var(--dark-gray);
+    border: 0;
+    border-radius: 0.5em;
+    box-shadow: var(--main-shadow);
+    color: #fff;
+    padding: 0.75em 1em;
+    transition: .2s;
+    font-family: var(--font-mono);
+}
+.cornerCardIconBlock {
+    margin-bottom: 10px;
+}
+.cornerCardIcon {
+    font-size: 30px;
+}
+.cornerCardTitle {
+    text-align: center;
+    font-size: 16px;
+}

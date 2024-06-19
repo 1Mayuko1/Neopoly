@@ -1,0 +1,262 @@
+/*-------------------- container --------------------*/
+.topSmallCardWrapper, .bottomSmallCardWrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    height: 100px;
+
+    border: 0;
+    color: #fff;
+    transition: .2s;
+    border-radius: 0.5em;
+    padding: 0.75em 1em;
+    box-shadow: var(--main-shadow);
+    background: var(--dark-gray);
+    font-family: var(--font-mono);
+}
+
+/*-------------------- price --------------------*/
+.topSmallCardPriceBlock, .bottomSmallCardPriceBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: var(--dark-silver);
+    color: var(--dark-gray);
+    padding: 2px;
+    min-width: 40px;
+}
+.topSmallCardPriceValue, .bottomSmallCardPriceValue {
+    font-weight: 400;
+    font-size: 14px;
+}
+/*-------------------- card title --------------------*/
+.topTitleAndIconContainer, .bottomTitleAndIconContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.topTitleAndIconContainerAirport .topSmallCardTitleValue,
+.bottomTitleAndIconContainerAirport .bottomSmallCardTitleValue{
+    margin: 5px 0 5px 0;
+}
+/*-------------------- card image --------------------*/
+.topGroupImageIconWrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: -15px;
+    border-radius: 100%;
+    background-color: var(--dark-silver);
+}
+.topSmallCardEventIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.topSmallCardEventIcon,
+.bottomSmallCardEventIcon,
+.leftSmallCardEventIcon,
+.rightSmallCardEventIcon {
+    font-size: 20px;
+}
+
+/*----------------------------------------------------*/
+/*-------------------- bottom card --------------------*/
+/*----------------------------------------------------*/
+
+.bottomSmallCardWrapper {
+    flex-direction: column-reverse;
+}
+.bottomTitleAndIconContainer {
+    flex-direction: column-reverse;
+}
+.bottomTitleAndIconContainerAirport .bottomSmallCardTitleValue {
+
+}
+.bottomSmallCardTitleValueContainer {
+
+}
+.bottomSmallCardTitleValue {
+
+}
+.bottomSmallCardEventIconContainer {
+
+}
+.bottomSmallCardEventIcon {
+
+}
+.bottomGroupImageIconWrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    border-radius: 100%;
+    background-color: var(--dark-silver);
+}
+
+/*----------------------------------------------------*/
+/*-------------------- left card --------------------*/
+/*----------------------------------------------------*/
+
+.leftSmallCardWrapper {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+
+    border: 0;
+    color: #fff;
+    transition: .2s;
+    border-radius: 0.5em;
+    padding: 0.75em 1em;
+    box-shadow: var(--main-shadow);
+    background: var(--dark-gray);
+    font-family: var(--font-mono);
+}
+.leftSmallCardPriceBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 18px;
+    width: 18px;
+    height: 100%;
+    border-radius: 3px;
+    background-color: var(--dark-silver);
+    color: var(--dark-gray);
+    padding: 2px;
+}
+.leftSmallCardPriceValue {
+    transform: rotate(90deg);
+}
+.leftTitleAndIconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 40px;
+}
+.leftTitleAndIconContainerAirport {
+
+}
+.leftTitleAndIconContainerAirport .leftSmallCardTitleValue {
+    margin-bottom: -10px;
+}
+.leftSmallCardTitleValueContainer {
+    transform: rotate(90deg);
+}
+.leftSmallCardTitleValue {
+    text-align: center;
+}
+.leftSmallCardEventIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftTitleAndIconContainerAirport .leftSmallCardEventIconContainer{
+    margin-left: -10px;
+}
+.leftSmallCardEventIcon {
+    transform: rotate(90deg);
+}
+.leftGroupImageIconWrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: -15px;
+    border-radius: 100%;
+    background-color: var(--dark-silver);
+}
+
+/*----------------------------------------------------*/
+/*-------------------- right card --------------------*/
+/*----------------------------------------------------*/
+
+.rightSmallCardWrapper {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+
+    border: 0;
+    color: #fff;
+    transition: .2s;
+    border-radius: 0.5em;
+    padding: 0.75em 1em;
+    box-shadow: var(--main-shadow);
+    background: var(--dark-gray);
+    font-family: var(--font-mono);
+}
+.rightSmallCardPriceBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 18px;
+    width: 18px;
+    height: 100%;
+    border-radius: 3px;
+    background-color: var(--dark-silver);
+    color: var(--dark-gray);
+    padding: 2px;
+}
+.rightSmallCardPriceValue {
+    transform: rotate(270deg);
+}
+.rightTitleAndIconContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 40px;
+}
+.rightTitleAndIconContainerAirport {
+    margin-right: -7px;
+}
+.rightTitleAndIconContainerAirport .rightSmallCardTitleValue {
+
+}
+.rightSmallCardTitleValueContainer {
+    transform: rotate(270deg);
+}
+.rightSmallCardTitleValue {
+    text-align: center;
+}
+.rightSmallCardEventIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightTitleAndIconContainerAirport .rightSmallCardEventIconContainer {
+    margin-right: -8px;
+}
+.rightSmallCardEventIcon {
+    transform: rotate(270deg);
+}
+.rightGroupImageIconWrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: -15px;
+    border-radius: 100%;
+    background-color: var(--dark-silver);
+}
+
+/* adaptive font */
+.topSmallCardPriceValue, .topSmallCardTitleValue,
+.leftSmallCardPriceValue, .leftSmallCardTitleValue,
+.rightSmallCardPriceValue, .rightSmallCardTitleValue,
+.bottomSmallCardPriceValue, .bottomSmallCardTitleValue {
+    font-size: calc(10px + 0.1vw);
+    word-wrap: break-word;
+}

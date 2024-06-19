@@ -1,0 +1,68 @@
+.gameRoomContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #B4BED9;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.gameRoomSettingsWrapper,
+.gameRoomChatWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    background-color: #FFFACD;
+}
+.gameDeckWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-color: #B4BED9;
+}
+.gameDeckInner {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cardsListTopWrapper,
+.cardsListBottomWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.cardsListLeftAndRightWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+.cardsListLeftWrapper, .cardsListRightWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.gameDeckActionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100%;
+    background-color: #a2d9d4;
+}

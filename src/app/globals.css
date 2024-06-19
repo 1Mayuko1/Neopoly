@@ -1,0 +1,29 @@
+/*------- basic -----------*/
+html, body, #__next {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: auto;
+  min-width: 100vh;
+  width: auto;
+}
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+  "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+  "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  --font-riot: 'Protest Riot', sans-serif;
+  --font-lobster: 'Lobster', sans-serif;
+  /* colors */
+  --light-steel-blue: #B4BED9;
+  --light-blue: #C3D4E3;
+  --azure-white: #D3E4EA;
+  --silver: #CCCED0;
+  --dark-silver: #AFB2B4;
+  --dark-gray: #565759;
+  /* shadows */
+  --main-shadow: 0 0.25em 0.5em rgba(0,0,0,.25);
+  /*  */
+  /*--rotateX: 0deg;*/
+  /*--rotateY: 0deg;*/
+}
